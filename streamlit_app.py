@@ -16,7 +16,7 @@ st.set_page_config(
 st.sidebar.title("NYC Restaurant Inspection 🍽️")
 page = st.sidebar.selectbox("Select Page", ["Introduction 📘", "Visualization 📊", "Prediction 🔮"])
 
-df = pd.read_csv("cleaned_restaurant_data.csv.zip")
+df = pd.read_csv("cleaned_restaurant_data.csv.gz")
 
 st.image("NYC Restaurant Photo.png")
 
